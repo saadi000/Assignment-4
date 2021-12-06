@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="246.0" prefWidth="372.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.age">
+   <children>
+      <AnchorPane layoutX="-148.0" layoutY="-205.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label layoutX="125.0" layoutY="29.0" prefHeight="17.0" prefWidth="128.0" text="Age Calculator" />
+      <DatePicker fx:id="sdate" layoutX="165.0" layoutY="65.0" />
+      <Label layoutX="14.0" layoutY="69.0" prefHeight="17.0" prefWidth="115.0" text="Select Date Of birth" />
+      <Label fx:id="label" layoutX="136.0" layoutY="191.0" prefHeight="25.0" prefWidth="128.0" />
+      <Button layoutX="136.0" layoutY="148.0" mnemonicParsing="false" onAction="#getage" prefHeight="25.0" prefWidth="128.0" text="Calculate Age" />
+      <Label layoutX="14.0" layoutY="115.0" prefHeight="17.0" prefWidth="109.0" text="Enter Current Year" />
+      <DatePicker fx:id="sdate2" layoutX="165.0" layoutY="110.0" prefHeight="25.0" prefWidth="175.0" />
+      <Button layoutX="124.0" layoutY="216.0" mnemonicParsing="false" onAction="#switchtomenu" prefHeight="25.0" prefWidth="128.0" text="Back" />
+   </children>
+</AnchorPane>

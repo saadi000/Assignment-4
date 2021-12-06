@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="374.0" prefWidth="416.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Volume">
+   <children>
+      <AnchorPane layoutX="-245.0" layoutY="-186.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label layoutX="30.0" layoutY="43.0" prefHeight="17.0" prefWidth="87.0" text="Enter Length" />
+      <Label layoutX="30.0" layoutY="77.0" prefHeight="17.0" prefWidth="87.0" text="Enter Width" />
+      <Label layoutX="30.0" layoutY="113.0" prefHeight="17.0" prefWidth="87.0" text="Enter Height" />
+      <TextField fx:id="textfield" layoutX="143.0" layoutY="39.0" />
+      <TextField fx:id="textfield2" layoutX="143.0" layoutY="73.0" />
+      <TextField fx:id="textfield3" layoutX="143.0" layoutY="109.0" />
+      <Button layoutX="148.0" layoutY="161.0" mnemonicParsing="false" onAction="#cal_vol" prefHeight="25.0" prefWidth="120.0" text="Calculate Volume" />
+      <Label fx:id="label" layoutX="148.0" layoutY="206.0" prefHeight="17.0" prefWidth="107.0" />
+      <Button layoutX="148.0" layoutY="240.0" mnemonicParsing="false" onAction="#cal_peri" prefHeight="25.0" prefWidth="120.0" text="Calculate Perimeter" />
+      <Label fx:id="label2" layoutX="148.0" layoutY="277.0" prefHeight="25.0" prefWidth="107.0" />
+      <Button layoutX="148.0" layoutY="323.0" mnemonicParsing="false" onAction="#switchtomenu" prefHeight="25.0" prefWidth="120.0" text="Back" />
+   </children>
+</AnchorPane>

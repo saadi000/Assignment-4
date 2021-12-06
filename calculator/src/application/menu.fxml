@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="478.0" prefWidth="536.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Menu">
+   <children>
+      <AnchorPane layoutX="-374.0" layoutY="-360.0" prefHeight="473.0" prefWidth="536.0" />
+      <Label layoutX="189.0" layoutY="31.0" prefHeight="31.0" prefWidth="158.0" text="Menu">
+         <font>
+            <Font name="System Bold" size="37.0" />
+         </font></Label>
+      <Button layoutX="32.0" layoutY="180.0" mnemonicParsing="false" onAction="#switchtoinvestment" prefHeight="25.0" prefWidth="110.0" text="Investment" />
+      <Button layoutX="32.0" layoutY="141.0" mnemonicParsing="false" onAction="#switchtoage" prefHeight="25.0" prefWidth="110.0" text="Age" />
+      <Button layoutX="32.0" layoutY="226.0" mnemonicParsing="false" onAction="#switchtocalculator" prefHeight="25.0" prefWidth="110.0" text="Calculator" />
+      <Button layoutX="189.0" layoutY="330.0" mnemonicParsing="false" onAction="#switchtodiscount" prefHeight="31.0" prefWidth="110.0" text="Discount" />
+      <Button layoutX="32.0" layoutY="100.0" mnemonicParsing="false" onAction="#switchtoBMI" prefHeight="25.0" prefWidth="110.0" text="BMI" />
+      <Button layoutX="32.0" layoutY="281.0" mnemonicParsing="false" onAction="#switchtoarea" prefHeight="25.0" prefWidth="110.0" text="Area" />
+      <Button layoutX="321.0" layoutY="101.0" mnemonicParsing="false" onAction="#switchtomoney" prefHeight="25.0" prefWidth="110.0" text="Money Converter" />
+      <Button layoutX="321.0" layoutY="141.0" mnemonicParsing="false" onAction="#switchtomass" prefHeight="25.0" prefWidth="110.0" text="Mass" />
+      <Button layoutX="318.0" layoutY="180.0" mnemonicParsing="false" onAction="#switchtospeed" prefHeight="25.0" prefWidth="110.0" text="Speed" />
+      <Button layoutX="318.0" layoutY="226.0" mnemonicParsing="false" onAction="#switchtotemperature" prefHeight="25.0" prefWidth="110.0" text="Temperature" />
+      <Button layoutX="318.0" layoutY="281.0" mnemonicParsing="false" onAction="#switchtovolume" prefHeight="25.0" prefWidth="110.0" text="Volume" />
+   </children>
+</AnchorPane>
